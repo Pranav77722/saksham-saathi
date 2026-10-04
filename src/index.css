@@ -464,7 +464,16 @@ header .max-w-6xl {
 }
 
 .conversation-header__brand h1 {
-  overflow-wrap: anywhere;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.conversation-header__title-row {
+  min-width: 0;
+}
+
+.conversation-header__title {
+  min-width: 0;
 }
 
 .voice-volume-control {
@@ -493,10 +502,30 @@ header .max-w-6xl {
     gap: 0.65rem;
   }
 
+  .conversation-header__brand {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .conversation-header__brand > div {
+    flex: 1;
+  }
+
+  .conversation-header__title-row {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    row-gap: 0.35rem;
+  }
+
+  .conversation-header__title {
+    flex: 1 1 100%;
+  }
+
   .conversation-header__controls {
     width: 100%;
     justify-content: space-between;
     padding-left: 1.75rem;
+    gap: 0.5rem;
   }
 
   .voice-volume-control {
