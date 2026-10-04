@@ -232,6 +232,70 @@ header .max-w-6xl {
   box-shadow: 0 4px 14px rgba(18, 60, 115, 0.06);
 }
 
+/* Keep every application surface on one calm teal, navy, and mint palette. */
+.bg-amber-50,
+.bg-blue-50,
+.bg-emerald-50,
+.bg-purple-50,
+.bg-rose-50,
+.bg-sky-50,
+.bg-indigo-50 {
+  background-color: #e7f7f5 !important;
+}
+
+.bg-amber-100,
+.bg-blue-100,
+.bg-emerald-100,
+.bg-purple-100,
+.bg-rose-100,
+.bg-sky-100,
+.bg-indigo-100 {
+  background-color: #d5f1ed !important;
+}
+
+.text-amber-600,
+.text-amber-700,
+.text-amber-800,
+.text-blue-600,
+.text-blue-700,
+.text-blue-800,
+.text-emerald-600,
+.text-emerald-700,
+.text-emerald-800,
+.text-purple-600,
+.text-purple-700,
+.text-purple-800,
+.text-rose-600,
+.text-rose-700,
+.text-rose-800,
+.text-sky-600,
+.text-sky-700,
+.text-sky-800,
+.text-indigo-600,
+.text-indigo-700,
+.text-indigo-800 {
+  color: #0f766e !important;
+}
+
+.border-amber-200,
+.border-blue-200,
+.border-emerald-200,
+.border-purple-200,
+.border-rose-200,
+.border-sky-200,
+.border-indigo-200 {
+  border-color: #b8e6df !important;
+}
+
+.portal-page .bg-gradient-to-r,
+.portal-page .bg-gradient-to-br {
+  background-image: linear-gradient(120deg, #0f766e, #155e75) !important;
+}
+
+.portal-page .bg-gradient-to-r.from-amber-50 {
+  background-image: linear-gradient(120deg, #e7f7f5, #d5f1ed) !important;
+}
+
 .rounded-3xl,
 .rounded-2xl {
   transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
